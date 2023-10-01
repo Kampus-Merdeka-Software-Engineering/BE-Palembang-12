@@ -1,0 +1,155 @@
+//reset css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #9EB384;
+        background-image: url(pic/pattern2.jpg);
+        background-size: cover;
+    }
+}
+
+.logo{
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.navbar-container{
+
+}
+
+.navbar-content{
+    float: right;
+    background-color: #CEDEBD;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-content2{
+    float: right;
+    margin-left: 5px;
+}
+
+a{
+    padding: 8px;
+    font-size: 16px;
+    color: #435334;
+}
+
+a:hover{
+    color: #9EB384;
+}
+
+.banner{
+    background-image: url(pic/banner1.png);
+    background-size: auto ;
+    border-radius: 8px;
+    margin-left: 310px;
+    margin-right: 300px;
+    color: peachpuff;
+}
+
+.row{
+    margin-top: 80px;
+    padding: 20px;
+    -webkit-column-count: 2;
+    border-radius: 10px;
+}
+.picSD{
+    width: 360px;
+    height: 280px;
+    margin-left: 200px;
+}
+
+.contentSD{
+    background-color: #CEDEBD;
+}
+
+
+
+h3{
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.LS{
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #CEDEBD;
+    border-radius: 8px;
+    color: #435334;
+    -webkit-columns: 2;
+}
+.contentLS{
+    margin-top: -5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.LSBT{
+    background-color: #435334;
+    color: #CEDEBD;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-left: 150px;
+}
+.vidLS{
+    border-radius: 6px;
+
+}
+
+.PS{
+    background-color: #9EB384;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 8px;
+}

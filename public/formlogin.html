@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeSmart Login</title>
+</head>
+<!-- CSS -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    color: tomato;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-form {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 25rem; /* Maksimum 25 rem */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 1rem .2rem;
+    margin: 1rem .2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    
+}
+
+button {
+    width: 50%;
+    padding: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<!-- CSS -->
+
+<!-- JavaScript -->
+    <script>
+        document.addEventListener("DOM", function() {
+    const loginForm = document.getElementById("login-form");
+
+    loginForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        
+        // Di sini Anda bisa menambahkan logika untuk memeriksa dan mengelola login
+        // Misalnya, Anda dapat mengirimkan data login ke server atau memeriksa dalam basis data lokal.
+
+        alert(`Username: ${username}\nPassword: ${password}`);
+        loginForm.reset();
+    });
+});
+
+    </script>
+<!-- JavaScript -->
+<body>
+    <div class="container">
+        <form id="login-form" class="login-form">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
